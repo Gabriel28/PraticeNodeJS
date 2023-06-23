@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  nodeproject:
+    build: .
+    container_name: "node_project"
+    ports: 
+    - 3000:3000
+    volumes:
+    - ./:/app
+    - /app/node_modules
+    env_file:
+    - ./.env  
+    depends_on:
+      - database
+
+  database:
+    image: mysql:latest
+    container_name: mysql-projectdc
+    ports:
+      - "3306:3306"
+    volumes:
+      - /var/lib/mysql
+    env_file:
+    - ./.env  
