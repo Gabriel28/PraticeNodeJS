@@ -7,17 +7,18 @@
 
 This project is also for pratice the using the DOCKERFILE and Docker compose in the create the develop environment. 
 
-## How do use
+## How to use
 
 First of all, if you don't have Docker installed, please, install Docker 
 
-#0078D6 - https://docs.docker.com/desktop/install/windows-install/
-#FCC624 - https://docs.docker.com/desktop/install/linux-install/
+| OS | Install | 
+| :---- | :---- |
+| Windows | https://docs.docker.com/desktop/install/windows-install/ |
+| Linux | https://docs.docker.com/desktop/install/linux-install/ |
+| macOS | https://docs.docker.com/desktop/install/mac-install/ |
 
-
-clone this project
-
-After cloning, use this command in your terminal: 
+- Clone this project
+- After cloning, use this command in your terminal: 
 
 `docker-compose up -d -build`
 
