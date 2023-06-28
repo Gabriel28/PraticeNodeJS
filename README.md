@@ -23,8 +23,8 @@ First of all, if you don't have Docker installed, please, install Docker
 
 | Environment | Command | 
 | :---- | :---- |
-| Dev | `docker-compose -f docker-compose.yml -f docker-compose-dev.yml up --d --build`|
-| Prod | `docker-compose -f .\docker-compose.yml -f .\docker-compose-prod.yml up --d --build`|
+| Dev | `docker-compose -f docker-compose.yml -f docker-compose-dev.yml up -d --build`|
+| Prod | `docker-compose -f docker-compose.yml -f docker-compose-prod.yml up -d --build`|
 
 ### In your client (Insomnia or Postman): export this curl: 
 
