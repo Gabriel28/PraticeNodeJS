@@ -1,6 +1,6 @@
 # PraticeNodeJS - Repo for training
 
-# This repo was created a CRUD with:
+# This repository aims to create a CRUD to training of basics concepts with:
 
 - Node
 - MySql 
