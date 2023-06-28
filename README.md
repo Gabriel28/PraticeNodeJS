@@ -9,7 +9,13 @@ This project is also for pratice the using the DOCKERFILE and Docker compose in 
 
 ## How do use
 
-First of all, clone this project
+First of all, if you don't have Docker installed, please, install Docker 
+
+<img src="./resources/icons/windows11.svg"> - https://docs.docker.com/desktop/install/windows-install/
+#FCC624 - https://docs.docker.com/desktop/install/linux-install/
+
+
+clone this project
 
 After cloning, use this command in your terminal: 
 
