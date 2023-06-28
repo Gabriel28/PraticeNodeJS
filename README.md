@@ -20,7 +20,11 @@ First of all, if you don't have Docker installed, please, install Docker
 - Clone this project
 - After cloning, use this command in your terminal: 
 
-`docker-compose up -d -build`
+
+| Environment | Command | 
+| :---- | :---- |
+| Dev | `docker-compose -f docker-compose.yml -f docker-compose-dev.yml up --d --build`|
+| Prod | `docker-compose -f .\docker-compose.yml -f .\docker-compose-prod.yml up --d --build`|
 
 ### In your client (Insomnia or Postman): export this curl: 
 
