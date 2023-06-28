@@ -8,5 +8,5 @@ app.get("/", (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`Rodando em => http://${hostname}:${port}/`)
+    console.log(`Rodando em => http://${process.env.URL_BASE}:${port}/`)
 })
