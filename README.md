@@ -9,7 +9,7 @@ This project is also for pratice the using the DOCKERFILE and Docker compose in 
 
 ## How to use
 
-First of all, if you don't have Docker installed, please, install Docker 
+First of all, if you don't have Docker installed, please, install Docker: _(More info: https://docs.docker.com/reference/)_
 
 | OS | Install | 
 | :---- | :---- |
@@ -18,8 +18,8 @@ First of all, if you don't have Docker installed, please, install Docker
 | macOS | https://docs.docker.com/desktop/install/mac-install/ |
 
 - Clone this project
+- Create your .env _(exemple inside the repository)_
 - After cloning, use this command in your terminal: 
-
 
 | Environment | Command | 
 | :---- | :---- |
