@@ -1,6 +1,6 @@
 const nodemon = require('nodemon');
 
-nodemon({ script: './server.js' })
+nodemon({ script: './src/server.js' })
   .on('start', console.clear)
   .on('restart', console.clear)
   .on('quit', () => {
